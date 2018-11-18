@@ -11,7 +11,15 @@ public class Prob4 {
 		String s = scanner.nextLine();
 		
 		/* 코드를 완성합니다. */
-		System.out.println(s);
+		int size = s.length();
+		for(int i = 0; i < size; i++) {
+			
+			for(int j = 0; j < 2; j++) {
+				System.out.print(s.charAt(j));
+			}
+			
+			System.out.println("");
+		}
 		
 		scanner.close();
 	}
