@@ -14,7 +14,7 @@ public class Prob4 {
 		int size = s.length();
 		for(int i = 0; i < size; i++) {
 			
-			for(int j = 0; j < 2; j++) {
+			for(int j = 0; j < i+1; j++) {
 				System.out.print(s.charAt(j));
 			}
 			
